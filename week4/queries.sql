@@ -15,3 +15,9 @@ FROM Courses
 JOIN Enroll ON Courses.name = Enroll.CourseName
 JOIN Students ON Enroll.PersonID = Students.id
 WHERE Courses.credits < 3;
+
+SELECT Courses.name
+FROM Courses
+INNER JOIN Enroll ON Courses.name = Enroll.CourseName
+INNER JOIN Students ON Enroll.PersonID = Students.id
+WHERE Students.native_language = 'English';
