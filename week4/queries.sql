@@ -1,6 +1,6 @@
-Select name from Students limit 10;
+SELECT name FROM Students LIMIT 10;
 
-Select name from Students Where native_language != "Russian";
+SELECT name FROM Students WHERE native_language != "Russian";
 
 SELECT name
 FROM Students
