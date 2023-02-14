@@ -43,11 +43,11 @@ INSERT INTO Students VALUES(11, "Fedya", "English");
 INSERT INTO Students VALUES(12, "Elina", "French");
 INSERT INTO Students VALUES(13, "Daria", "Spain");
 
-INSERT INTO Courses VALUES("Security systems", 1);
+INSERT INTO Courses VALUES("Security systems", 2);
 INSERT INTO Courses VALUES("ML", 1);
-INSERT INTO Courses VALUES("Mechanics", 1);
-INSERT INTO Courses VALUES("Statistical Techniques", 1);
-INSERT INTO Courses VALUES("Software project", 1);
+INSERT INTO Courses VALUES("Mechanics", 3);
+INSERT INTO Courses VALUES("Statistical Techniques", 3);
+INSERT INTO Courses VALUES("Software project", 2);
 
 INSERT INTO Takes VALUES("AAI", 4);
 INSERT INTO Takes VALUES("SD", 5);
@@ -55,3 +55,10 @@ INSERT INTO Takes VALUES("SD", 3);
 INSERT INTO Takes VALUES("CS", 1);
 INSERT INTO Takes VALUES("Robotics", 2);
 INSERT INTO Takes VALUES("DS", 12);
+
+INSERT INTO Enroll VALUES("ML", 4);
+INSERT INTO Enroll VALUES("Security systems", 1);
+INSERT INTO Enroll VALUES("Mechanics", 2);
+INSERT INTO Enroll VALUES("Statistical Techniques", 12);
+INSERT INTO Enroll VALUES("Software project", 5);
+INSERT INTO Enroll VALUES("Software project", 3);
